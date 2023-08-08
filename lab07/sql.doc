@@ -1,0 +1,5 @@
+SELECT * FROM `cars`;
+SELECT * FROM `cars` order by make DESC,model ASC;
+SELECT make,model,price FROM `cars` where price >= 20000.00;
+SELECT make,model,price FROM `cars` where price < 15000.00;
+SELECT make,AVG(price) FROM `cars` group by make;
